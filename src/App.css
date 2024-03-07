@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App{
+  background-image: linear-gradient(to right top, #000000, #311b1d, #5d2f2d, #894736, #b16539, #b16539, #b16539, #b16539, #894736, #5d2f2d, #311b1d, #000000);
+}
+
+.anima{
+  animation: rotate 8s infinite;
+}
+
+@keyframes rotate {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform:rotate(360deg);
+  }
+}
+
